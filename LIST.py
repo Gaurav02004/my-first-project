@@ -34,16 +34,50 @@
 
 ## VARIOUS OPERATIONS THAT CAN BE PERFORMED ON LISTS
 
-lst = [1,2,3,4,5];
-sum(lst);
-print("Sum of all elements in the list is:", sum(lst));
-max(lst);
+# lst = [1,2,3,4,5];
+# sum(lst);
+# print("Sum of all elements in the list is:", sum(lst));
+# max(lst);
 
-print("Maximum element in the list is:", max(lst));
-min(lst);
-print("Minimum element in the list is:", min(lst));
-len(lst);
-print("Length of the list is:", len(lst));
+# print("Maximum element in the list is:", max(lst));
+# min(lst);
+# print("Minimum element in the list is:", min(lst));
+# len(lst);
+# print("Length of the list is:", len(lst));
+
+# l = [1,2,3]
+# print(l)
+# print(type(l))
+
+marks = [3,4,6,"Harry",True,7,8,9,10]
+# print(marks)
+# print(type(marks))
+# print(marks[0])
+# print(marks[1])
+# print(marks[2])
+# print(marks[3])
+# print(marks[4])
+# print(marks[-3])
+# print(marks[len(marks)-3])
+# print(marks[5-3])
+# print(marks[-2])
+
+# if "6" in marks:
+#     print("Yes")
+# else:
+#     print("No")
+
+# if  "arry" in "Harry":
+#     print("Yes")
+# else:
+#     print("No")
+
+print(marks)
+print(marks[1:-1])
+print(marks[1:4:2])
+
+
+
 
 
 
